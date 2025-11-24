@@ -1,9 +1,14 @@
 # movingMirror
-Using machine learning to compute Hawking radiation spectra for a given black hole path in a Penrose diagram
+The neural operator we are going to build to solve this problem focusses on is different. Here there are two aspects of this neural network which makes it different from the rest
++ Matrix valued output of the network
++ Complex entries of the output along with weights, biases and activation function
 
-neur_network_merged is the code for a single neural network that learns both the real and imaginary factors of the fourier transform  
-neur_network_separate is the code for two networks that learn the real and imaginary factors independently, producing far more accuracy
+  We wish to leverage these two facts to obtain the $\beta_{\omega k}$ function. The expression for $\beta_{\omega k}$ is given as
+  $$
+  \beta_{\omega k}=\int
+  $$
 
-CURRENT BEST:  
-nn_v2  
-Neural-Operator
+  Write about how the network is matrix valued. include equations. also mention equations and why it is matrix valued
+  write about the complex numbers and why it is required. show the implementation of complex activation function.
+
+  Also make sure to add what are the pitfalls of the above.
