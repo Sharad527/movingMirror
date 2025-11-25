@@ -4,6 +4,7 @@ The neural operator we are going to build to solve this problem focusses on is d
 + Complex entries of the output along with weights, biases and activation function
 
   We wish to leverage these two facts to obtain the $\beta_{\omega k}$ function. The expression for $\beta_{\omega k}$ is given as
+  
   ```math
   \beta_{\omega k}=\int_{-\infty}^{+\infty} dV \frac{e^{i(U_{cl}(V)k-V\omega)}}{\sqrt{4\pi|\omega|}\sqrt{4\pi |k|}}(-k\dl_V U_{cl}(V)-\omega)
   ```math
